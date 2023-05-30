@@ -7,22 +7,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Animate.css -->
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="animate.css-main/animate.min.css">
   <style>
-    .animated-bg {
-      background-color: #f8f9fa;
-      animation: pulse 1s infinite alternate;
-    }
-
-    @keyframes pulse {
-      0% {
-        opacity: 0.5;
-      }
-
-      100% {
-        opacity: 1;
-      }
-    }
+    /* Gaya kustom */
   </style>
 </head>
 <body>
@@ -33,6 +20,9 @@
           <h1 class="display-4 animate__animated animate__bounceIn">Curriculum Vitae</h1>
         </div>
         <hr>
+        <div class="text-center mb-4 animate__animated animate__fadeIn">
+          <img src="path/to/profile-picture.jpg" alt="Foto Profil" class="rounded-circle" style="width: 200px; height: 200px;">
+        </div>
         <h2 class="animate__animated animate__fadeInLeft">Informasi Pribadi</h2>
         <div class="row animate__animated animate__fadeInRight">
           <div class="col-md-6">
@@ -40,45 +30,23 @@
               <label for="nama">Nama</label>
               <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
             </div>
+            <!-- Bagian lain dari Informasi Pribadi -->
           </div>
           <div class="col-md-6">
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="telepon">Telepon</label>
-              <input type="tel" class="form-control" id="telepon" placeholder="Masukkan Nomor Telepon Anda">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="alamat">Alamat</label>
-              <input type="text" class="form-control" id="alamat" placeholder="Masukkan Alamat Anda">
-            </div>
+            <!-- Bagian lain dari Informasi Pribadi -->
           </div>
         </div>
         <h2 class="animate__animated animate__fadeInLeft">Pendidikan</h2>
         <div class="row animate__animated animate__fadeInRight">
           <div class="col-md-6">
             <div class="form-group">
-              <label for="pendidikan">Jenjang Pendidikan</label>
-              <input type="text" class="form-control" id="pendidikan" placeholder="Masukkan Jenjang Pendidikan">
+              <label for="jenjang">Jenjang Pendidikan</label>
+              <input type="text" class="form-control" id="jenjang" placeholder="Masukkan Jenjang Pendidikan">
             </div>
+            <!-- Bagian lain dari Pendidikan -->
           </div>
           <div class="col-md-6">
-            <div class="form-group">
-              <label for="institusi">Institusi</label>
-              <input type="text" class="form-control" id="institusi" placeholder="Masukkan Nama Institusi">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="tahun">Tahun Lulus</label>
-              <input type="text" class="form-control" id="tahun" placeholder="Masukkan Tahun Lulus">
-            </div>
+            <!-- Bagian lain dari Pendidikan -->
           </div>
         </div>
         <button type="submit" class="btn btn-primary animate__animated animate__fadeIn">Simpan</button>
